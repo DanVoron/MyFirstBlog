@@ -1,0 +1,26 @@
+User: Admin
+Email: GG@mail.ru
+Password: 12344321
+
+PythonAnywher(Admin)
+NetherKick
+12344321
+
+Запуск шайтан машины
+cd D:\Users\Dan\Documents\MySite
+myvenv\Scripts\activate
+python manage.py runserver
+
+Заливка на гит хам в питонэнивер
+cd ~/netherkickfun.pythonanywhere.com
+
+Фан
+Post.objects.create(author=me, title='EtoRealno?', text='Net')
+Post.objects.filter(author=me)
+
+Post.objects.filter(title__contains='EtoRealno?')
+from django.utils import timezone
+
+Post.objects.filter(published_date__lte=timezone.now())
+Post.publish()
+Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
