@@ -13,7 +13,7 @@ python manage.py runserver
 
 Заливка на гит хам в питонэнивер
 cd ~/netherkickfun.pythonanywhere.com
-
+	
 Фан
 Post.objects.create(author=me, title='EtoRealno?', text='Net')
 Post.objects.filter(author=me)
